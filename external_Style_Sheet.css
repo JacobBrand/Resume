@@ -1,0 +1,22 @@
+     body{color:black(192, 51, 51)} 
+     h1{color:black}
+     h2{color:black}
+     h3{color:black}
+     h4{color:black}
+
+    /* div {
+               width: 700px;
+               height: 200px;
+               border: 0ch;
+               display: flexbox;
+               flex-wrap: wrap;
+               align-content:center;
+     }*/
+.container{
+     display:flex; 
+     flex-direction: row;
+     justify-content:space-evenly;
+}
+.flexitem{
+
+}
