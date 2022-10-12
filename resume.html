@@ -43,13 +43,17 @@
       Brandjacob2000@gmail.com 
     </h2>
     <h3>
-      <a href="https://media-exp1.licdn.com/dms/image/D5603AQH6kxXjnAitiw/profile-displayphoto-shrink_400_400/0/1664223571841?e=1669852800&v=beta&t=vJq97hDcngYXaxvdZBEJYQwgV091KaDvHp3bKDK3NVI">https://www.linkedin.com/in/jacob-brand</a>
+      <a href="https://www.linkedin.com/in/jacob-brand-b69a42237/">https://www.linkedin.com/in/jacob-brand</a>
     </h3>
     <h4>
       316.300.7408
     </h4>
   </div>
-    <img src= "https://media-exp1.licdn.com/dms/image/C4D03AQEtPSb0ysGj_Q/profile-displayphoto-shrink_800_800/0/1650057134734?e=1668643200&v=beta&t=KrA4WbqzUGxSHTJSdyDAoa1-w77jjNoy5lrp9lysv94" alt="">
+  <button id="button1" onclick="hideimg();"> Img</button>
+    <div id="pic">
+      <img src= "https://media-exp1.licdn.com/dms/image/D5603AQH6kxXjnAitiw/profile-displayphoto-shrink_400_400/0/1664223571841?e=1670457600&v=beta&t=MdzR1bI_1fwM6qYndCZqNmEdCpga8u8bvw11lPL_B_Y" alt="">
+    </div>
+    
 </div>
 
   
@@ -110,6 +114,31 @@
         <h4>Fundamental Understanding of Financial Statements and Organizational Structure</h4>
         <h4>Teamwork Ability</h4>
         <h4>Idea Generation</h4>
+    <div id="footer">
+
+      
+    </div>
+
+
+
+        <script>
+          hideimg = function() {
+            var x = document.getElementById("pic");
+            if (x.style.display =="none") {
+              x.style.display = "block";
+            } else{
+                x.style.display = "none";
+            }
+          };
+          
+          var count = 1;
+        
+        let date = new Date().toDateString();
+        document.getElementById("footer").innerHTML = date;
+        
+        </script>
+
 </body>
+
 
   </html>

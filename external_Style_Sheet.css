@@ -4,19 +4,16 @@
      h3{color:black}
      h4{color:black}
 
-    /* div {
-               width: 700px;
-               height: 200px;
-               border: 0ch;
-               display: flexbox;
-               flex-wrap: wrap;
-               align-content:center;
-     }*/
 .container{
      display:flex; 
      flex-direction: row;
      justify-content:space-evenly;
 }
-.flexitem{
 
+.button{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     color:blue
 }
+
